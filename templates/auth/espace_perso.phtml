@@ -1,0 +1,16 @@
+<main>
+  <h1>Espace Personnel</h1>
+  <div class="user-info">
+    <h2>Bienvenue dans votre espace personnel <strong><?= $_SESSION['userMail'] ?></strong> !</h2>
+    <p>Votre identifiant est : <strong><?= $_SESSION['userId'] ?></strong></p>
+    <p>Vous êtes connecté à votre compte. N'hésitez pas à consulter vos informations et préférences.</p>
+  </div>
+
+  <div class="user-actions">
+    <h3>Actions disponibles :</h3>
+    <ul>
+
+      <li><a href="index.php?route=deconnexion">Se déconnecter</a></li>
+    </ul>
+  </div>
+</main>
