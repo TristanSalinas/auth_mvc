@@ -1,6 +1,5 @@
 <?php
-require_once 'models/user.php';
-require_once 'managers/abstract_manager.php';
+
 
 class UserManager extends AbstractManager
 {

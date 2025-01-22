@@ -1,5 +1,5 @@
 <?php
-require_once 'managers/user_manager.php';
+
 
 class AuthController
 {
